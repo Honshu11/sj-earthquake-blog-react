@@ -1,12 +1,18 @@
-import React from 'react'
-import MainHeader from './Components/MainHeader'
+import React from 'react';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import NavigationBar from './Components/NavigationBar';
+
+
+
 
 function App() {
     return (
-        <div>
-            <MainHeader />
+        <div className='App'>
+            <NavigationBar />
+            
         </div>
     )
 }
 
-export default App
+export default App;
